@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 20px 20px 10px;
+    height: 100vh;
+    width: 50vw;
+    background: url('https://bootstrapmade.com/content/demo/MyResume/assets/img/hero-bg.jpg') no-repeat center center/cover;
+    color: #45505b;
+  }
+  .menu-container{
+    border-radius: 50px;
+    background-color: #0563bb;
+    color: #45505b;
+    width: 30px;
+    height: 30px;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    /* Hamburger Menu */
+    .menu-icon {
+      top: 20px;
+      right: 20px;
+      font-size: 1rem;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .container-2{
+      display: flex;
+      flex-direction: column;   
+      justify-content: center;
+      flex-grow: 1;
+    }
+  
+  /* Heading Styles */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  
+  /* Social Links */
+  .social-links {
+    
+    color: #45505b !important;
+    font-size: 1.5rem;
+    
+  }
+  .icons {
+    margin-right: 10px;
+  }
+ 
+  
